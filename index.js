@@ -4,7 +4,7 @@ const app = express();
 const port = 80;
 
 const verificationToken = "thisismyverificationtokenanditislongenough";
-const endpoint = "https://TODO.com/challenge";
+const endpoint = "https://ebay-giftcard-test.herokuapp.com/challenge";
 
 app.get('/challenge', (req, res) => {
   const challengeCode = req.query['challenge_code'];
